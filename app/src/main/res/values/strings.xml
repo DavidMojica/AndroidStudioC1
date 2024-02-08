@@ -1,5 +1,8 @@
 <resources>
-<!-- Todo el texto que va en la aplicación va aquí. -->
-    <string name="user">User</string>
+<!-- Every text into the app is managed here. -->
+    <string name="user">ORM</string>
     <string name="app_name">App1</string>
+    <string name="btn1_text">Up</string>
+    <string name="btn2_text">Down</string>
+
 </resources>
