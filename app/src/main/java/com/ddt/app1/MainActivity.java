@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean ban = true;
     protected int n = 12;
     protected string textChanged1 = "Suspicius soup";
-    protected string textChanged2 = "Suspicius soup";
+    protected string textChanged2 = "Not a good stuff";
 
 
 
@@ -30,18 +30,33 @@ public class MainActivity extends AppCompatActivity {
         btn1 = (Button) findViewById(R.id.btn1);
         btn2 = (Button) findViewById(R.id.btn2);
 
-        
         btn1.setOnCLickListener(new View.setOnCLickListener(){
 
             @Override
             public void OnClick(View view){
                 userName.setText(textChanged1);
+                //Toast
             }
         
         });
+
+
+        btn2.setOnCLickListener(new View.setOnCLickListener(){
+    
+            @Override
+            public void OnClick(View view){
+                userName.setText(textChanged2);
+            }
+
+        });
+    }
+
+    public double calculateArea(int l1, int l2){
+        return l1*l2;
     }
 }
 
+// To do: Set the mobile develop mode 
 
 
 
