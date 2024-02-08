@@ -1,18 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+    
+    <!-- Linear layout have a 'display block'
+            Linear layeout Properties:
 
-    <TextView
-        android:layout_width="wrap_content"
+            ***********SIZE************
+            android:layout_width="match_parent"
+
+            Match parent: All the viweport width
+            wrap_content: Extends parent's container size
+
+            *********ALIGN***********
+            android:layout_gravity="center"
+
+            center: centered ._.
+            bottom, top, etc...
+
+            *********Extends strings********
+            android:text="@string/name"
+    -->
+    <LinearLayout 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+        <!-- Text view: -->
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:text="@string/user" 
+        android:layout_gravity="center"
+        android:id="@+id/username"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+
+        <Button
+        android:layout_width="wrap_content" 
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/btn1_text"
+        android:id="@+id/btn1"
+        ></Button>
+        
+        <Button
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="@string/btn2_text"
+        android:id="@+id/btn2"
+        ></Button>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
