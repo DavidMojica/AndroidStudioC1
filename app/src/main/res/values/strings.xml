@@ -1,3 +1,5 @@
 <resources>
+<!-- Todo el texto que va en la aplicación va aquí. -->
+    <string name="user">User</string>
     <string name="app_name">App1</string>
 </resources>

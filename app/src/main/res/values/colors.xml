@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Todos los colores que se vayan a usar, ponerlos aqui -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple">#4B0082</color>
+    <color name="purple-light">#9F70FD</color>
+    <color name="orange-light">#FDBF60</color>
+    <color name="orange">#FF8911</color>
 </resources>
