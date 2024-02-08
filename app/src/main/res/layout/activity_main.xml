@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
     
     <!-- Linear layout have a 'display block'
@@ -16,6 +17,10 @@
             wrap_content: Extends parent's container size
 
             *********ALIGN***********
+            android:layout_gravity="center"
+
+            center: centered ._.
+            bottom, top, etc...
 
             *********Extends strings********
             android:text="@string/name"
@@ -31,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" 
         android:text="@string/user" 
+        android:layout_gravity="center"
         />
 
     </LinearLayout>
@@ -39,6 +45,7 @@
     android:layout_width="match_parent" 
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:layout_gravity="center"
     >
 
     <Button
@@ -46,7 +53,7 @@
     android:layout_height="wrap_content"
     android:text="@string/btn1_text"
     ></Button>
-    
+
     <Button
     android:layout_width="wrap_content" 
     android:layout_height="wrap_content"
