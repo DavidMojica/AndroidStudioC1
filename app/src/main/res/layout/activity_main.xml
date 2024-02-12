@@ -49,19 +49,21 @@
     android:layout_gravity="center"
     >
 
-        <Button
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content"
-        android:text="@string/btn1_text"
-        android:id="@+id/btn1"
-        ></Button>
-        
-        <Button
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content"
-        android:text="@string/btn2_text"
-        android:id="@+id/btn2"
-        ></Button>
+            <Button
+            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn1_text"
+                android:id="@+id/btn1"
+                android:textColor="@color/purple"
+            ></Button>
+
+            <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn2_text"
+            android:textColor="@color/purple"
+            ></Button>
 
 
     </LinearLayout>

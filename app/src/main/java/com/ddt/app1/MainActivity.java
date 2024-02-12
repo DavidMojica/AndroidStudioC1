@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn1;
     private Button btn2;
     
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         btn1.setOnCLickListener(new View.setOnCLickListener(){
 
-            @Override
+
             public void OnClick(View view){
                 userName.setText(textChanged1);
                 //Toast
