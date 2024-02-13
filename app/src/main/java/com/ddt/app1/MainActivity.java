@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
         btn2 = (Button) findViewById(R.id.btn2);
 
         btn1.setOnCLickListener(new View.setOnCLickListener(){
-
-
             public void OnClick(View view){
                 userName.setText(textChanged1);
                 //Toast
@@ -42,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         btn2.setOnCLickListener(new View.setOnCLickListener(){
-    
             @Override
             public void OnClick(View view){
                 userName.setText(textChanged2);
@@ -56,7 +53,18 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-// To do: Set the mobile develop mode 
+// To do: Set the mobile develop mode
+
+/* Ciclo de vida
+*   OnCreate(); => Siempre se ejecuta por defecto cuando se crea la aplicacion
+*   OnStart();  => Se ejecuta cuando se abre la aplicación
+*   OnRestart(); =>
+*   OnResume(); => Cuando se abre desde segundo plano
+*   OnPause(); => Cuando la aplicación está en segundo plano
+*   OnStop(); => Actividad no visible para el usuario
+*   OnDestroy(); => Cuando se destruye la aplicacion
+* */
+
 
 
 
